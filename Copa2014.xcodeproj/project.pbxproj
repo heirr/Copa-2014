@@ -21,6 +21,7 @@
 		281D42451888BB2000E11143 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 281D42271888BB2000E11143 /* UIKit.framework */; };
 		281D424D1888BB2000E11143 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 281D424B1888BB2000E11143 /* InfoPlist.strings */; };
 		281D424F1888BB2000E11143 /* Copa2014Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 281D424E1888BB2000E11143 /* Copa2014Tests.m */; };
+		281D42591888CF6A00E11143 /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 281D42581888CF6A00E11143 /* Property List.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		281D424A1888BB2000E11143 /* Copa2014Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Copa2014Tests-Info.plist"; sourceTree = "<group>"; };
 		281D424C1888BB2000E11143 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		281D424E1888BB2000E11143 /* Copa2014Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Copa2014Tests.m; sourceTree = "<group>"; };
+		281D42581888CF6A00E11143 /* Property List.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				281D42321888BB2000E11143 /* AppDelegate.h */,
 				281D42331888BB2000E11143 /* AppDelegate.m */,
 				281D42351888BB2000E11143 /* Main.storyboard */,
+				281D42581888CF6A00E11143 /* Property List.plist */,
 				281D42381888BB2000E11143 /* ViewController.h */,
 				281D42391888BB2000E11143 /* ViewController.m */,
 				281D423B1888BB2000E11143 /* Images.xcassets */,
@@ -230,6 +233,7 @@
 			files = (
 				281D423C1888BB2000E11143 /* Images.xcassets in Resources */,
 				281D422E1888BB2000E11143 /* InfoPlist.strings in Resources */,
+				281D42591888CF6A00E11143 /* Property List.plist in Resources */,
 				281D42371888BB2000E11143 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

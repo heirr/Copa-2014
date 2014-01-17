@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>grupos</key>
+	<dict>
+		<key>a</key>
+		<dict>
+			<key>selecoes</key>
+			<dict>
+				<key>1</key>
+				<string>Brasil</string>
+				<key>2</key>
+				<string>Croácia</string>
+				<key>3</key>
+				<string>México</string>
+				<key>4</key>
+				<string>Camarões</string>
+			</dict>
+		</dict>
+		<key>b</key>
+		<dict>
+			<key>selecoes</key>
+			<dict>
+				<key>1</key>
+				<string>Espanha</string>
+				<key>2</key>
+				<string>Holanda</string>
+				<key>3</key>
+				<string>Chile</string>
+				<key>4</key>
+				<string>Austrália</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>
