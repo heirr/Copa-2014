@@ -21,7 +21,8 @@
 		281D42451888BB2000E11143 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 281D42271888BB2000E11143 /* UIKit.framework */; };
 		281D424D1888BB2000E11143 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 281D424B1888BB2000E11143 /* InfoPlist.strings */; };
 		281D424F1888BB2000E11143 /* Copa2014Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 281D424E1888BB2000E11143 /* Copa2014Tests.m */; };
-		281D42591888CF6A00E11143 /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 281D42581888CF6A00E11143 /* Property List.plist */; };
+		281D425C1888D5EC00E11143 /* GrupoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 281D425B1888D5EC00E11143 /* GrupoViewController.m */; };
+		281D425E1888DBC100E11143 /* grupos.plist in Resources */ = {isa = PBXBuildFile; fileRef = 281D425D1888DBC100E11143 /* grupos.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +55,9 @@
 		281D424A1888BB2000E11143 /* Copa2014Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Copa2014Tests-Info.plist"; sourceTree = "<group>"; };
 		281D424C1888BB2000E11143 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		281D424E1888BB2000E11143 /* Copa2014Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Copa2014Tests.m; sourceTree = "<group>"; };
-		281D42581888CF6A00E11143 /* Property List.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
+		281D425A1888D5EC00E11143 /* GrupoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrupoViewController.h; sourceTree = "<group>"; };
+		281D425B1888D5EC00E11143 /* GrupoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrupoViewController.m; sourceTree = "<group>"; };
+		281D425D1888DBC100E11143 /* grupos.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = grupos.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,11 +120,13 @@
 				281D42321888BB2000E11143 /* AppDelegate.h */,
 				281D42331888BB2000E11143 /* AppDelegate.m */,
 				281D42351888BB2000E11143 /* Main.storyboard */,
-				281D42581888CF6A00E11143 /* Property List.plist */,
 				281D42381888BB2000E11143 /* ViewController.h */,
 				281D42391888BB2000E11143 /* ViewController.m */,
+				281D425D1888DBC100E11143 /* grupos.plist */,
 				281D423B1888BB2000E11143 /* Images.xcassets */,
 				281D422A1888BB2000E11143 /* Supporting Files */,
+				281D425A1888D5EC00E11143 /* GrupoViewController.h */,
+				281D425B1888D5EC00E11143 /* GrupoViewController.m */,
 			);
 			path = Copa2014;
 			sourceTree = "<group>";
@@ -231,9 +236,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				281D425E1888DBC100E11143 /* grupos.plist in Resources */,
 				281D423C1888BB2000E11143 /* Images.xcassets in Resources */,
 				281D422E1888BB2000E11143 /* InfoPlist.strings in Resources */,
-				281D42591888CF6A00E11143 /* Property List.plist in Resources */,
 				281D42371888BB2000E11143 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,6 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				281D425C1888D5EC00E11143 /* GrupoViewController.m in Sources */,
 				281D423A1888BB2000E11143 /* ViewController.m in Sources */,
 				281D42341888BB2000E11143 /* AppDelegate.m in Sources */,
 				281D42301888BB2000E11143 /* main.m in Sources */,
