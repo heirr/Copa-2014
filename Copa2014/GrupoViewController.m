@@ -13,6 +13,7 @@
 @end
 
 @implementation GrupoViewController
+@synthesize teste, lblTeste;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {

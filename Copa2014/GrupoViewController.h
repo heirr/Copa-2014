@@ -9,9 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface GrupoViewController : UIViewController {
-    NSString * selecao1, *selecao2, *selecao3, *selecao4, *grupo;
 
 }
 
+@property (nonatomic, retain) IBOutlet UILabel *lblTeste;
+@property (nonatomic, strong) NSString *teste;
 
 @end

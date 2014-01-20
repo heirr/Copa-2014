@@ -9,8 +9,8 @@
             <objects>
                 <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Nsb-ni-T9a"/>
-                        <viewControllerLayoutGuide type="bottom" id="eJZ-78-8g5"/>
+                        <viewControllerLayoutGuide type="top" id="TVL-6b-cCh"/>
+                        <viewControllerLayoutGuide type="bottom" id="fx4-dJ-9Zg"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -37,23 +37,25 @@
         <!--View Controller-->
         <scene sceneID="mM9-CZ-zXy">
             <objects>
-                <viewController id="YMQ-WU-Eup" sceneMemberID="viewController">
+                <viewController id="YMQ-WU-Eup" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Tt0-Lr-k77"/>
-                        <viewControllerLayoutGuide type="bottom" id="hXz-DC-wGH"/>
+                        <viewControllerLayoutGuide type="top" id="voG-nU-itD"/>
+                        <viewControllerLayoutGuide type="bottom" id="3F8-nQ-TYb"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="pHG-TF-cXl">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BDW-Nx-G0w">
-                                <rect key="frame" x="69" y="106" width="46" height="30"/>
+                                <rect key="frame" x="69" y="106" width="60" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button">
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <state key="normal" title="A" backgroundImage="imgButton">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="ZFA-3X-3J1" kind="modal" id="xAm-7G-z41"/>
+                                    <segue destination="ZFA-3X-3J1" kind="modal" identifier="grupoA" id="5IS-ee-b1U"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A2R-ZI-CAI">
@@ -118,41 +120,45 @@
             <objects>
                 <viewController id="ZFA-3X-3J1" customClass="GrupoViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="quA-B9-YeD"/>
-                        <viewControllerLayoutGuide type="bottom" id="eyU-RU-wTx"/>
+                        <viewControllerLayoutGuide type="top" id="Z5s-9L-4oo"/>
+                        <viewControllerLayoutGuide type="bottom" id="hJ8-Ep-mh2"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="5rp-LC-E79">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="imgTelaGrupo" translatesAutoresizingMaskIntoConstraints="NO" id="y8r-cW-dLD">
+                                <rect key="frame" x="-8" y="54" width="337" height="460"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ewC-mX-bnd">
-                                <rect key="frame" x="20" y="38" width="142" height="30"/>
+                                <rect key="frame" x="15" y="54" width="142" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="29"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lNT-GU-BoX">
-                                <rect key="frame" x="120" y="105" width="42" height="21"/>
+                                <rect key="frame" x="46" y="113" width="42" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rPY-Yh-q2x">
-                                <rect key="frame" x="120" y="134" width="42" height="21"/>
+                                <rect key="frame" x="46" y="156" width="42" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hHu-2g-NlJ">
-                                <rect key="frame" x="120" y="163" width="42" height="21"/>
+                                <rect key="frame" x="46" y="203" width="42" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q6m-yD-Kfk">
-                                <rect key="frame" x="120" y="192" width="42" height="21"/>
+                                <rect key="frame" x="46" y="243" width="42" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
@@ -160,12 +166,20 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="EuT-kV-2Xm"/>
+                    <connections>
+                        <outlet property="lblTeste" destination="ewC-mX-bnd" id="MxI-F7-y3a"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0V0-LT-thx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-3079" y="-1088"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="imgButton" width="173" height="173"/>
+        <image name="imgTelaGrupo" width="640" height="924"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
