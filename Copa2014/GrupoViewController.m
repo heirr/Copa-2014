@@ -23,31 +23,11 @@
     return self;
 }
 
-- (NSString *)getFilePath
-{
-    NSArray *userDomainPaths = NSSearchPathForDirectoriesInDomains(NSDocumentationDirectory, NSUserDomainMask, TRUE);
-    NSString *documentsDir = [userDomainPaths objectAtIndex:0];
-    return [documentsDir stringByAppendingFormat:@"grupos.plist"];
-}
-
-- (void)getInfo
-{
-    NSLog(@"teste2");
-    NSString *filePath = [self getFilePath];
-    if ([[NSFileManager defaultManager] fileExistsAtPath:filePath]) {
-        
-        NSDictionary *dic = [[NSDictionary alloc] initWithContentsOfFile:filePath];
-        NSLog(@"teste3");
-        NSLog(@"%@",dic);
-    }
-}
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
-    NSLog(@"teste");
-    [self getInfo];
 
 }
 
