@@ -13,6 +13,7 @@
 @end
 
 @implementation GrupoViewController
+@synthesize teste, lblTeste;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -47,6 +48,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     NSLog(@"teste");
+    self.lblTeste.text = teste;
     [self getInfo];
 
 }

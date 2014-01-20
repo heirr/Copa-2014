@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "GrupoViewController.h"
 
 @interface ViewController ()
 
@@ -22,7 +23,11 @@
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    
+    if ([segue.identifier isEqualToString:@"grupoA"]) {
+        GrupoViewController *telaGrupo = segue.destinationViewController;
+        telaGrupo.teste = @"GRUPO A";
+
+    }
 }
 - (void)didReceiveMemoryWarning
 {
