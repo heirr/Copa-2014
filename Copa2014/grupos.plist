@@ -7,30 +7,82 @@
 		<key>a</key>
 		<dict>
 			<key>selecoes</key>
-			<dict>
-				<key>1</key>
+			<array>
 				<string>Brasil</string>
-				<key>2</key>
 				<string>Croácia</string>
-				<key>3</key>
 				<string>México</string>
-				<key>4</key>
 				<string>Camarões</string>
-			</dict>
+			</array>
 		</dict>
 		<key>b</key>
 		<dict>
 			<key>selecoes</key>
-			<dict>
-				<key>1</key>
+			<array>
 				<string>Espanha</string>
-				<key>2</key>
 				<string>Holanda</string>
-				<key>3</key>
 				<string>Chile</string>
-				<key>4</key>
 				<string>Austrália</string>
-			</dict>
+			</array>
+		</dict>
+		<key>c</key>
+		<dict>
+			<key>selecoes</key>
+			<array>
+				<string>Colômbia</string>
+				<string>Grécia</string>
+				<string>Costa do Marfim</string>
+				<string>Japão</string>
+			</array>
+		</dict>
+		<key>d</key>
+		<dict>
+			<key>selecoes</key>
+			<array>
+				<string>Uruguai</string>
+				<string>Costa Rica</string>
+				<string>Inglaterra</string>
+				<string>Itália</string>
+			</array>
+		</dict>
+		<key>e</key>
+		<dict>
+			<key>selecoes</key>
+			<array>
+				<string>Suíça</string>
+				<string>Equador</string>
+				<string>França</string>
+				<string>Honduras</string>
+			</array>
+		</dict>
+		<key>f</key>
+		<dict>
+			<key>selecoes</key>
+			<array>
+				<string>Argentina</string>
+				<string>Bósnia</string>
+				<string>Irã</string>
+				<string>Nigéria</string>
+			</array>
+		</dict>
+		<key>g</key>
+		<dict>
+			<key>selecoes</key>
+			<array>
+				<string>Alemanha</string>
+				<string>Portugal</string>
+				<string>Gana</string>
+				<string>Estados Unidos</string>
+			</array>
+		</dict>
+		<key>h</key>
+		<dict>
+			<key>selecoes</key>
+			<array>
+				<string>Bélgica</string>
+				<string>Argélia</string>
+				<string>Rússia</string>
+				<string>Coréia do Sul</string>
+			</array>
 		</dict>
 	</dict>
 </dict>
