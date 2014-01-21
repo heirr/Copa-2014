@@ -138,7 +138,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lNT-GU-BoX">
-                                <rect key="frame" x="46" y="113" width="42" height="21"/>
+                                <rect key="frame" x="46" y="113" width="99" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
@@ -167,7 +167,8 @@
                     </view>
                     <navigationItem key="navigationItem" id="EuT-kV-2Xm"/>
                     <connections>
-                        <outlet property="lblTeste" destination="ewC-mX-bnd" id="MxI-F7-y3a"/>
+                        <outlet property="lblTeste" destination="ewC-mX-bnd" id="ayH-NE-bkF"/>
+                        <outlet property="lblTime1" destination="lNT-GU-BoX" id="EWD-1U-GW9"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0V0-LT-thx" userLabel="First Responder" sceneMemberID="firstResponder"/>

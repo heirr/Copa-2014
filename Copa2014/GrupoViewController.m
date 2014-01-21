@@ -31,6 +31,10 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     NSLog(@"teste");
+    NSString *plistFile = [[NSBundle mainBundle] pathForResource:@"grupos" ofType:@"plist"];
+    NSDictionary *dict = [NSDictionary dictionaryWithContentsOfFile:plistFile];
+    NSLog(@"%@", dict);
+    self.lblTime1.text = [[[[dict objectForKey:@"grupos"] objectForKey:@"a"] objectForKey:@"selecoes"] objectAtIndex:0];
     self.lblTeste.text = teste;
 
 }

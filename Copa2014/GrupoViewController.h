@@ -13,6 +13,7 @@
 }
 
 @property (nonatomic, retain) IBOutlet UILabel *lblTeste;
+@property (nonatomic, retain) IBOutlet UILabel *lblTime1;
 @property (nonatomic, strong) NSString *teste;
 
 @end
