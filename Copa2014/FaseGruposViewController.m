@@ -29,7 +29,7 @@
     if ([segue.identifier isEqualToString:@"grupoA"]) {
        GrupoViewController *telaGrupo = segue.destinationViewController;
        telaGrupo.grupo = @"a";
-    }
+    } 
 }
 
 - (void)viewDidLoad
