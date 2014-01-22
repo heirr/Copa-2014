@@ -14,7 +14,6 @@
 		281D42301888BB2000E11143 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 281D422F1888BB2000E11143 /* main.m */; };
 		281D42341888BB2000E11143 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 281D42331888BB2000E11143 /* AppDelegate.m */; };
 		281D42371888BB2000E11143 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 281D42351888BB2000E11143 /* Main.storyboard */; };
-		281D423A1888BB2000E11143 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 281D42391888BB2000E11143 /* ViewController.m */; };
 		281D423C1888BB2000E11143 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 281D423B1888BB2000E11143 /* Images.xcassets */; };
 		281D42431888BB2000E11143 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 281D42421888BB2000E11143 /* XCTest.framework */; };
 		281D42441888BB2000E11143 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 281D42231888BB2000E11143 /* Foundation.framework */; };
@@ -23,6 +22,8 @@
 		281D424F1888BB2000E11143 /* Copa2014Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 281D424E1888BB2000E11143 /* Copa2014Tests.m */; };
 		281D425C1888D5EC00E11143 /* GrupoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 281D425B1888D5EC00E11143 /* GrupoViewController.m */; };
 		281D425E1888DBC100E11143 /* grupos.plist in Resources */ = {isa = PBXBuildFile; fileRef = 281D425D1888DBC100E11143 /* grupos.plist */; };
+		2851B055188F4D3B00E95A1D /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2851B054188F4D3B00E95A1D /* MainViewController.m */; };
+		2851B058188F4E3A00E95A1D /* FaseGruposViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2851B057188F4E3A00E95A1D /* FaseGruposViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,8 +48,6 @@
 		281D42321888BB2000E11143 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		281D42331888BB2000E11143 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		281D42361888BB2000E11143 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		281D42381888BB2000E11143 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		281D42391888BB2000E11143 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		281D423B1888BB2000E11143 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		281D42411888BB2000E11143 /* Copa2014Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Copa2014Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		281D42421888BB2000E11143 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -58,6 +57,10 @@
 		281D425A1888D5EC00E11143 /* GrupoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrupoViewController.h; sourceTree = "<group>"; };
 		281D425B1888D5EC00E11143 /* GrupoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrupoViewController.m; sourceTree = "<group>"; };
 		281D425D1888DBC100E11143 /* grupos.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = grupos.plist; sourceTree = "<group>"; };
+		2851B053188F4D3B00E95A1D /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		2851B054188F4D3B00E95A1D /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		2851B056188F4E3A00E95A1D /* FaseGruposViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaseGruposViewController.h; sourceTree = "<group>"; };
+		2851B057188F4E3A00E95A1D /* FaseGruposViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaseGruposViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,13 +123,15 @@
 				281D42321888BB2000E11143 /* AppDelegate.h */,
 				281D42331888BB2000E11143 /* AppDelegate.m */,
 				281D42351888BB2000E11143 /* Main.storyboard */,
-				281D42381888BB2000E11143 /* ViewController.h */,
-				281D42391888BB2000E11143 /* ViewController.m */,
 				281D425D1888DBC100E11143 /* grupos.plist */,
 				281D423B1888BB2000E11143 /* Images.xcassets */,
 				281D422A1888BB2000E11143 /* Supporting Files */,
 				281D425A1888D5EC00E11143 /* GrupoViewController.h */,
 				281D425B1888D5EC00E11143 /* GrupoViewController.m */,
+				2851B053188F4D3B00E95A1D /* MainViewController.h */,
+				2851B054188F4D3B00E95A1D /* MainViewController.m */,
+				2851B056188F4E3A00E95A1D /* FaseGruposViewController.h */,
+				2851B057188F4E3A00E95A1D /* FaseGruposViewController.m */,
 			);
 			path = Copa2014;
 			sourceTree = "<group>";
@@ -259,9 +264,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				281D425C1888D5EC00E11143 /* GrupoViewController.m in Sources */,
-				281D423A1888BB2000E11143 /* ViewController.m in Sources */,
 				281D42341888BB2000E11143 /* AppDelegate.m in Sources */,
+				2851B055188F4D3B00E95A1D /* MainViewController.m in Sources */,
 				281D42301888BB2000E11143 /* main.m in Sources */,
+				2851B058188F4E3A00E95A1D /* FaseGruposViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,6 +476,7 @@
 				281D42541888BB2000E11143 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		281D42551888BB2000E11143 /* Build configuration list for PBXNativeTarget "Copa2014Tests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +485,7 @@
 				281D42571888BB2000E11143 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
