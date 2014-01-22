@@ -36,33 +36,33 @@
 - (void) carregarDadosNaTela {
     
     //Jogo 1
-    self.lblSelecao01.text = [[[[[dict objectForKey:@"grupos"] objectForKey:@"a"] objectForKey:@"jogos"] objectAtIndex:0] objectForKey:@"esquerda"];
-    self.lblSelecao11.text = [[[[[dict objectForKey:@"grupos"] objectForKey:@"a"] objectForKey:@"jogos"] objectAtIndex:0] objectForKey:@"direita"];
+    self.lblSelecao01.text = [[[[[dict objectForKey:@"grupos"] objectForKey:grupo] objectForKey:@"jogos"] objectAtIndex:0] objectForKey:@"esquerda"];
+    self.lblSelecao11.text = [[[[[dict objectForKey:@"grupos"] objectForKey:grupo] objectForKey:@"jogos"] objectAtIndex:0] objectForKey:@"direita"];
     //self.lblDataLocal1.text =
     
     //Jogo 2
-    self.lblSelecao02.text = [[[[[dict objectForKey:@"grupos"] objectForKey:@"a"] objectForKey:@"jogos"] objectAtIndex:1] objectForKey:@"esquerda"];
-    self.lblSelecao12.text = [[[[[dict objectForKey:@"grupos"] objectForKey:@"a"] objectForKey:@"jogos"] objectAtIndex:1] objectForKey:@"direita"];
+    self.lblSelecao02.text = [[[[[dict objectForKey:@"grupos"] objectForKey:grupo] objectForKey:@"jogos"] objectAtIndex:1] objectForKey:@"esquerda"];
+    self.lblSelecao12.text = [[[[[dict objectForKey:@"grupos"] objectForKey:grupo] objectForKey:@"jogos"] objectAtIndex:1] objectForKey:@"direita"];
     //self.lblDataLocal1.text =
     
     //Jogo 3
-    self.lblSelecao03.text = [[[[[dict objectForKey:@"grupos"] objectForKey:@"a"] objectForKey:@"jogos"] objectAtIndex:2] objectForKey:@"esquerda"];
-    self.lblSelecao13.text = [[[[[dict objectForKey:@"grupos"] objectForKey:@"a"] objectForKey:@"jogos"] objectAtIndex:2] objectForKey:@"direita"];
+    self.lblSelecao03.text = [[[[[dict objectForKey:@"grupos"] objectForKey:grupo] objectForKey:@"jogos"] objectAtIndex:2] objectForKey:@"esquerda"];
+    self.lblSelecao13.text = [[[[[dict objectForKey:@"grupos"] objectForKey:grupo] objectForKey:@"jogos"] objectAtIndex:2] objectForKey:@"direita"];
     //self.lblDataLocal1.text =
     
     //Jogo 4
-    self.lblSelecao04.text = [[[[[dict objectForKey:@"grupos"] objectForKey:@"a"] objectForKey:@"jogos"] objectAtIndex:3] objectForKey:@"esquerda"];
-    self.lblSelecao14.text = [[[[[dict objectForKey:@"grupos"] objectForKey:@"a"] objectForKey:@"jogos"] objectAtIndex:3] objectForKey:@"direita"];
+    self.lblSelecao04.text = [[[[[dict objectForKey:@"grupos"] objectForKey:grupo] objectForKey:@"jogos"] objectAtIndex:3] objectForKey:@"esquerda"];
+    self.lblSelecao14.text = [[[[[dict objectForKey:@"grupos"] objectForKey:grupo] objectForKey:@"jogos"] objectAtIndex:3] objectForKey:@"direita"];
     //self.lblDataLocal1.text =
     
     //Jogo 5
-    self.lblSelecao05.text = [[[[[dict objectForKey:@"grupos"] objectForKey:@"a"] objectForKey:@"jogos"] objectAtIndex:4] objectForKey:@"esquerda"];
-    self.lblSelecao15.text = [[[[[dict objectForKey:@"grupos"] objectForKey:@"a"] objectForKey:@"jogos"] objectAtIndex:4] objectForKey:@"direita"];
+    self.lblSelecao05.text = [[[[[dict objectForKey:@"grupos"] objectForKey:grupo] objectForKey:@"jogos"] objectAtIndex:4] objectForKey:@"esquerda"];
+    self.lblSelecao15.text = [[[[[dict objectForKey:@"grupos"] objectForKey:grupo] objectForKey:@"jogos"] objectAtIndex:4] objectForKey:@"direita"];
     //self.lblDataLocal1.text =
     
     //Jogo 6
-    self.lblSelecao06.text = [[[[[dict objectForKey:@"grupos"] objectForKey:@"a"] objectForKey:@"jogos"] objectAtIndex:5] objectForKey:@"esquerda"];
-    self.lblSelecao16.text = [[[[[dict objectForKey:@"grupos"] objectForKey:@"a"] objectForKey:@"jogos"] objectAtIndex:5] objectForKey:@"direita"];
+    self.lblSelecao06.text = [[[[[dict objectForKey:@"grupos"] objectForKey:grupo] objectForKey:@"jogos"] objectAtIndex:5] objectForKey:@"esquerda"];
+    self.lblSelecao16.text = [[[[[dict objectForKey:@"grupos"] objectForKey:grupo] objectForKey:@"jogos"] objectAtIndex:5] objectForKey:@"direita"];
     //self.lblDataLocal1.text =
 
 
