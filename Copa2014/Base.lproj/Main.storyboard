@@ -4,7 +4,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
     </dependencies>
     <scenes>
-        <!--Main View Controller-->
+        <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
                 <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
@@ -30,7 +30,7 @@
             </objects>
             <point key="canvasLocation" x="470" y="42"/>
         </scene>
-        <!--Fase Grupos View Controller-->
+        <!--View Controller-->
         <scene sceneID="mM9-CZ-zXy">
             <objects>
                 <viewController id="YMQ-WU-Eup" customClass="ViewController" sceneMemberID="viewController">
@@ -112,7 +112,7 @@
             <objects>
                 <viewController id="ZFA-3X-3J1" customClass="GrupoViewController" sceneMemberID="viewController">
                     <view key="view" autoresizesSubviews="NO" contentMode="scaleToFill" id="5rp-LC-E79" customClass="UIImageView">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ewC-mX-bnd">
