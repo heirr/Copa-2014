@@ -83,14 +83,17 @@
         self.lblTeste.autoresizingMask = UIViewAutoresizingNone;
         self.lblTeste.frame = CGRectMake(10, 10, 280, 21);
         self.lblTeste.text  = @"teste1";
-        [self.view frame];
+
     }
     else {
         self.lblTeste.autoresizingMask = UIViewAutoresizingNone;
         self.lblTeste.frame = CGRectMake(20, 200, 280, 21);
         self.lblTeste.text = @"teste2";
-        [self.view frame];
     }
+    [self.view frame];
+    [self abrirPList];
+    [self carregarDadosNaTela];
+
 
 }
 

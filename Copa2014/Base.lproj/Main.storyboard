@@ -4,10 +4,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Main View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="MainViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -30,10 +30,10 @@
             </objects>
             <point key="canvasLocation" x="470" y="42"/>
         </scene>
-        <!--View Controller-->
+        <!--Fase Grupos View Controller-->
         <scene sceneID="mM9-CZ-zXy">
             <objects>
-                <viewController id="YMQ-WU-Eup" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="YMQ-WU-Eup" customClass="FaseGruposViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pHG-TF-cXl">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
