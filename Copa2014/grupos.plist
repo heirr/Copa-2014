@@ -16,64 +16,76 @@
 			<key>jogos</key>
 			<array>
 				<dict>
-					<key>0</key>
+					<key>esquerda</key>
+					<string>Brasil</string>
+					<key>direita</key>
+					<string>Croácia</string>
+					<key>golsEsquerda</key>
 					<string></string>
-					<key>1</key>
+					<key>golsDireita</key>
 					<string></string>
-					<key>local</key>
-					<string></string>
-					<key>data</key>
-					<date>2014-01-20T21:48:28Z</date>
+					<key>dataLocal</key>
+					<string>12/06 | 17h00 | São Paulo</string>
 				</dict>
 				<dict>
-					<key>2</key>
+					<key>esquerda</key>
+					<string>México</string>
+					<key>direita</key>
+					<string>Camarões</string>
+					<key>golsEsquerda</key>
 					<string></string>
-					<key>3</key>
+					<key>golsDireita</key>
 					<string></string>
-					<key>local</key>
-					<string></string>
-					<key>data</key>
-					<date>2014-01-20T21:48:28Z</date>
+					<key>dataLocal</key>
+					<string>13/06 | 13h00 | Natal</string>
 				</dict>
 				<dict>
-					<key>0</key>
+					<key>esquerda</key>
+					<string>Brasil</string>
+					<key>direita</key>
+					<string>México</string>
+					<key>golsEsquerda</key>
 					<string></string>
-					<key>2</key>
+					<key>golsDireita</key>
 					<string></string>
-					<key>local</key>
-					<string></string>
-					<key>data</key>
-					<date>2014-01-20T21:48:28Z</date>
+					<key>dataLocal</key>
+					<string>17/06 | 16h00 | Fortaleza</string>
 				</dict>
 				<dict>
-					<key>1</key>
+					<key>esquerda</key>
+					<string>Camarões</string>
+					<key>direita</key>
+					<string>Croácia</string>
+					<key>golsEsquerda</key>
 					<string></string>
-					<key>3</key>
+					<key>golsDireita</key>
 					<string></string>
-					<key>local</key>
-					<string></string>
-					<key>data</key>
-					<date>2014-01-20T21:48:28Z</date>
+					<key>dataLocal</key>
+					<string>18/06 | 16h00 | Manaus</string>
 				</dict>
 				<dict>
-					<key>0</key>
+					<key>esquerda</key>
+					<string>Camarões</string>
+					<key>direita</key>
+					<string>Brasil</string>
+					<key>golsEsquerda</key>
 					<string></string>
-					<key>3</key>
+					<key>golsDireita</key>
 					<string></string>
-					<key>local</key>
-					<string></string>
-					<key>data</key>
-					<date>2014-01-20T21:48:28Z</date>
+					<key>dataLocal</key>
+					<string>23/06 | 17h00 | Brasília</string>
 				</dict>
 				<dict>
-					<key>1</key>
+					<key>esquerda</key>
+					<string>Croácia</string>
+					<key>direita</key>
+					<string>México</string>
+					<key>golsEsquerda</key>
 					<string></string>
-					<key>2</key>
+					<key>golsDireita</key>
 					<string></string>
-					<key>local</key>
-					<string></string>
-					<key>data</key>
-					<date>2014-01-20T21:48:28Z</date>
+					<key>dataLocal</key>
+					<string>23/06 | 17h00 | Recife</string>
 				</dict>
 			</array>
 		</dict>
@@ -81,72 +93,84 @@
 		<dict>
 			<key>selecoes</key>
 			<array>
-				<string>Espanha</string>
-				<string>Holanda</string>
-				<string>Chile</string>
-				<string>Austrália</string>
+				<string>Brasil</string>
+				<string>Croácia</string>
+				<string>México</string>
+				<string>Camarões</string>
 			</array>
 			<key>jogos</key>
 			<array>
 				<dict>
-					<key>0</key>
+					<key>esquerda</key>
+					<string>Espanha</string>
+					<key>direita</key>
+					<string>Holanda</string>
+					<key>golsEsquerda</key>
 					<string></string>
-					<key>1</key>
+					<key>golsDireita</key>
 					<string></string>
-					<key>local</key>
-					<string></string>
-					<key>data</key>
-					<date>2014-01-20T21:48:28Z</date>
+					<key>dataLocal</key>
+					<string>13/06 | 16h00 | Salvador</string>
 				</dict>
 				<dict>
-					<key>2</key>
+					<key>esquerda</key>
+					<string>Chile</string>
+					<key>direita</key>
+					<string>Austrália</string>
+					<key>golsEsquerda</key>
 					<string></string>
-					<key>3</key>
+					<key>golsDireita</key>
 					<string></string>
-					<key>local</key>
-					<string></string>
-					<key>data</key>
-					<date>2014-01-20T21:48:28Z</date>
+					<key>dataLocal</key>
+					<string>13/06 | 19h00 | Cuiabá</string>
 				</dict>
 				<dict>
-					<key>0</key>
+					<key>esquerda</key>
+					<string>Austrália</string>
+					<key>direita</key>
+					<string>Holanda</string>
+					<key>golsEsquerda</key>
 					<string></string>
-					<key>2</key>
+					<key>golsDireita</key>
 					<string></string>
-					<key>local</key>
-					<string></string>
-					<key>data</key>
-					<date>2014-01-20T21:48:28Z</date>
+					<key>dataLocal</key>
+					<string>18/06 | 13h00 | Porto Alegre</string>
 				</dict>
 				<dict>
-					<key>1</key>
+					<key>esquerda</key>
+					<string>Espanha</string>
+					<key>direita</key>
+					<string>Chile</string>
+					<key>golsEsquerda</key>
 					<string></string>
-					<key>3</key>
+					<key>golsDireita</key>
 					<string></string>
-					<key>local</key>
-					<string></string>
-					<key>data</key>
-					<date>2014-01-20T21:48:28Z</date>
+					<key>dataLocal</key>
+					<string>18/06 | 19h00 | Rio de Janeiro</string>
 				</dict>
 				<dict>
-					<key>0</key>
+					<key>esquerda</key>
+					<string>Austrália</string>
+					<key>direita</key>
+					<string>Espanha</string>
+					<key>golsEsquerda</key>
 					<string></string>
-					<key>3</key>
+					<key>golsDireita</key>
 					<string></string>
-					<key>local</key>
-					<string></string>
-					<key>data</key>
-					<date>2014-01-20T21:48:28Z</date>
+					<key>dataLocal</key>
+					<string>23/06 | 13h00 | Curitiba</string>
 				</dict>
 				<dict>
-					<key>1</key>
+					<key>esquerda</key>
+					<string>Holanda</string>
+					<key>direita</key>
+					<string>Chile</string>
+					<key>golsEsquerda</key>
 					<string></string>
-					<key>2</key>
+					<key>golsDireita</key>
 					<string></string>
-					<key>local</key>
-					<string></string>
-					<key>data</key>
-					<date>2014-01-20T21:48:28Z</date>
+					<key>dataLocal</key>
+					<string>23/06 | 13h00 | São Paulo</string>
 				</dict>
 			</array>
 		</dict>
@@ -154,72 +178,84 @@
 		<dict>
 			<key>selecoes</key>
 			<array>
-				<string>Colômbia</string>
-				<string>Grécia</string>
-				<string>Costa do Marfim</string>
-				<string>Japão</string>
+				<string>Brasil</string>
+				<string>Croácia</string>
+				<string>México</string>
+				<string>Camarões</string>
 			</array>
 			<key>jogos</key>
 			<array>
 				<dict>
-					<key>0</key>
+					<key>esquerda</key>
+					<string>Colômbia</string>
+					<key>direita</key>
+					<string>Grécia</string>
+					<key>golsEsquerda</key>
 					<string></string>
-					<key>1</key>
+					<key>golsDireita</key>
 					<string></string>
-					<key>local</key>
-					<string></string>
-					<key>data</key>
-					<date>2014-01-20T21:48:28Z</date>
+					<key>dataLocal</key>
+					<string>14/06 | 13h00 | Belo Horizonte</string>
 				</dict>
 				<dict>
-					<key>2</key>
+					<key>esquerda</key>
+					<string>Costa do Marfim</string>
+					<key>direita</key>
+					<string>Japão</string>
+					<key>golsEsquerda</key>
 					<string></string>
-					<key>3</key>
+					<key>golsDireita</key>
 					<string></string>
-					<key>local</key>
-					<string></string>
-					<key>data</key>
-					<date>2014-01-20T21:48:28Z</date>
+					<key>dataLocal</key>
+					<string>14/06 | 19h00 | Recife</string>
 				</dict>
 				<dict>
-					<key>0</key>
+					<key>esquerda</key>
+					<string>Colômbia</string>
+					<key>direita</key>
+					<string>Costa do Marfim</string>
+					<key>golsEsquerda</key>
 					<string></string>
-					<key>2</key>
+					<key>golsDireita</key>
 					<string></string>
-					<key>local</key>
-					<string></string>
-					<key>data</key>
-					<date>2014-01-20T21:48:28Z</date>
+					<key>dataLocal</key>
+					<string>19/06 | 13h00 | Brasília</string>
 				</dict>
 				<dict>
-					<key>1</key>
+					<key>esquerda</key>
+					<string>Japão</string>
+					<key>direita</key>
+					<string>Grécia</string>
+					<key>golsEsquerda</key>
 					<string></string>
-					<key>3</key>
+					<key>golsDireita</key>
 					<string></string>
-					<key>local</key>
-					<string></string>
-					<key>data</key>
-					<date>2014-01-20T21:48:28Z</date>
+					<key>dataLocal</key>
+					<string>19/06 | 19h00 | Natal</string>
 				</dict>
 				<dict>
-					<key>0</key>
+					<key>esquerda</key>
+					<string>Japão</string>
+					<key>direita</key>
+					<string>Colômbia</string>
+					<key>golsEsquerda</key>
 					<string></string>
-					<key>3</key>
+					<key>golsDireita</key>
 					<string></string>
-					<key>local</key>
-					<string></string>
-					<key>data</key>
-					<date>2014-01-20T21:48:28Z</date>
+					<key>dataLocal</key>
+					<string>24/06 | 17h00 | Cuiabá</string>
 				</dict>
 				<dict>
-					<key>1</key>
+					<key>esquerda</key>
+					<string>Grécia</string>
+					<key>direita</key>
+					<string>Costa do Marfim</string>
+					<key>golsEsquerda</key>
 					<string></string>
-					<key>2</key>
+					<key>golsDireita</key>
 					<string></string>
-					<key>local</key>
-					<string></string>
-					<key>data</key>
-					<date>2014-01-20T21:48:28Z</date>
+					<key>dataLocal</key>
+					<string>24/06 | 17h00 | Fortaleza</string>
 				</dict>
 			</array>
 		</dict>
@@ -227,72 +263,84 @@
 		<dict>
 			<key>selecoes</key>
 			<array>
-				<string>Uruguai</string>
-				<string>Costa Rica</string>
-				<string>Inglaterra</string>
-				<string>Itália</string>
+				<string>Brasil</string>
+				<string>Croácia</string>
+				<string>México</string>
+				<string>Camarões</string>
 			</array>
 			<key>jogos</key>
 			<array>
 				<dict>
-					<key>0</key>
+					<key>esquerda</key>
+					<string>Uruguai</string>
+					<key>direita</key>
+					<string>Costa Rica</string>
+					<key>golsEsquerda</key>
 					<string></string>
-					<key>1</key>
+					<key>golsDireita</key>
 					<string></string>
-					<key>local</key>
-					<string></string>
-					<key>data</key>
-					<date>2014-01-20T21:48:28Z</date>
+					<key>dataLocal</key>
+					<string>14/06 | 16h00 | Fortaleza</string>
 				</dict>
 				<dict>
-					<key>2</key>
+					<key>esquerda</key>
+					<string>Inglaterra</string>
+					<key>direita</key>
+					<string>Itália</string>
+					<key>golsEsquerda</key>
 					<string></string>
-					<key>3</key>
+					<key>golsDireita</key>
 					<string></string>
-					<key>local</key>
-					<string></string>
-					<key>data</key>
-					<date>2014-01-20T21:48:28Z</date>
+					<key>dataLocal</key>
+					<string>14/06 | 22h00 | Manaus</string>
 				</dict>
 				<dict>
-					<key>0</key>
+					<key>esquerda</key>
+					<string>Uruguai</string>
+					<key>direita</key>
+					<string>Inglaterra</string>
+					<key>golsEsquerda</key>
 					<string></string>
-					<key>2</key>
+					<key>golsDireita</key>
 					<string></string>
-					<key>local</key>
-					<string></string>
-					<key>data</key>
-					<date>2014-01-20T21:48:28Z</date>
+					<key>dataLocal</key>
+					<string>19/06 | 16h00 | São Paulo</string>
 				</dict>
 				<dict>
-					<key>1</key>
+					<key>esquerda</key>
+					<string>Itália</string>
+					<key>direita</key>
+					<string>Costa Rica</string>
+					<key>golsEsquerda</key>
 					<string></string>
-					<key>3</key>
+					<key>golsDireita</key>
 					<string></string>
-					<key>local</key>
-					<string></string>
-					<key>data</key>
-					<date>2014-01-20T21:48:28Z</date>
+					<key>dataLocal</key>
+					<string>20/06 | 13h00 | Recife</string>
 				</dict>
 				<dict>
-					<key>0</key>
+					<key>esquerda</key>
+					<string>Itália</string>
+					<key>direita</key>
+					<string>Uruguai</string>
+					<key>golsEsquerda</key>
 					<string></string>
-					<key>3</key>
+					<key>golsDireita</key>
 					<string></string>
-					<key>local</key>
-					<string></string>
-					<key>data</key>
-					<date>2014-01-20T21:48:28Z</date>
+					<key>dataLocal</key>
+					<string>24/06 | 13h00 | Natal</string>
 				</dict>
 				<dict>
-					<key>1</key>
+					<key>esquerda</key>
+					<string>Costa Rica</string>
+					<key>direita</key>
+					<string>Inglaterra</string>
+					<key>golsEsquerda</key>
 					<string></string>
-					<key>2</key>
+					<key>golsDireita</key>
 					<string></string>
-					<key>local</key>
-					<string></string>
-					<key>data</key>
-					<date>2014-01-20T21:48:28Z</date>
+					<key>dataLocal</key>
+					<string>24/06 | 13h00 | Belo Horizonte</string>
 				</dict>
 			</array>
 		</dict>
@@ -300,72 +348,84 @@
 		<dict>
 			<key>selecoes</key>
 			<array>
-				<string>Suíça</string>
-				<string>Equador</string>
-				<string>França</string>
-				<string>Honduras</string>
+				<string>Brasil</string>
+				<string>Croácia</string>
+				<string>México</string>
+				<string>Camarões</string>
 			</array>
 			<key>jogos</key>
 			<array>
 				<dict>
-					<key>0</key>
+					<key>esquerda</key>
+					<string>Suiça</string>
+					<key>direita</key>
+					<string>Equador</string>
+					<key>golsEsquerda</key>
 					<string></string>
-					<key>1</key>
+					<key>golsDireita</key>
 					<string></string>
-					<key>local</key>
-					<string></string>
-					<key>data</key>
-					<date>2014-01-20T21:48:28Z</date>
+					<key>dataLocal</key>
+					<string>15/06 | 13h00 | Brasília</string>
 				</dict>
 				<dict>
-					<key>2</key>
+					<key>esquerda</key>
+					<string>França</string>
+					<key>direita</key>
+					<string>Honduras</string>
+					<key>golsEsquerda</key>
 					<string></string>
-					<key>3</key>
+					<key>golsDireita</key>
 					<string></string>
-					<key>local</key>
-					<string></string>
-					<key>data</key>
-					<date>2014-01-20T21:48:28Z</date>
+					<key>dataLocal</key>
+					<string>15/06 | 16h00 | Porto Alegre</string>
 				</dict>
 				<dict>
-					<key>0</key>
+					<key>esquerda</key>
+					<string>Suiça</string>
+					<key>direita</key>
+					<string>França</string>
+					<key>golsEsquerda</key>
 					<string></string>
-					<key>2</key>
+					<key>golsDireita</key>
 					<string></string>
-					<key>local</key>
-					<string></string>
-					<key>data</key>
-					<date>2014-01-20T21:48:28Z</date>
+					<key>dataLocal</key>
+					<string>12/06 | 17h00 | Salvador</string>
 				</dict>
 				<dict>
-					<key>1</key>
+					<key>esquerda</key>
+					<string>Honduras</string>
+					<key>direita</key>
+					<string>Equador</string>
+					<key>golsEsquerda</key>
 					<string></string>
-					<key>3</key>
+					<key>golsDireita</key>
 					<string></string>
-					<key>local</key>
-					<string></string>
-					<key>data</key>
-					<date>2014-01-20T21:48:28Z</date>
+					<key>dataLocal</key>
+					<string>20/06 | 19h00 | Curitiba</string>
 				</dict>
 				<dict>
-					<key>0</key>
+					<key>esquerda</key>
+					<string>Honduras</string>
+					<key>direita</key>
+					<string>Suiça</string>
+					<key>golsEsquerda</key>
 					<string></string>
-					<key>3</key>
+					<key>golsDireita</key>
 					<string></string>
-					<key>local</key>
-					<string></string>
-					<key>data</key>
-					<date>2014-01-20T21:48:28Z</date>
+					<key>dataLocal</key>
+					<string>25/06 | 17h00 | Manaus</string>
 				</dict>
 				<dict>
-					<key>1</key>
+					<key>esquerda</key>
+					<string>Equador</string>
+					<key>direita</key>
+					<string>França</string>
+					<key>golsEsquerda</key>
 					<string></string>
-					<key>2</key>
+					<key>golsDireita</key>
 					<string></string>
-					<key>local</key>
-					<string></string>
-					<key>data</key>
-					<date>2014-01-20T21:48:28Z</date>
+					<key>dataLocal</key>
+					<string>25/06 | 17h00 | Rio de Janeiro</string>
 				</dict>
 			</array>
 		</dict>
@@ -373,72 +433,84 @@
 		<dict>
 			<key>selecoes</key>
 			<array>
-				<string>Argentina</string>
-				<string>Bósnia</string>
-				<string>Irã</string>
-				<string>Nigéria</string>
+				<string>Brasil</string>
+				<string>Croácia</string>
+				<string>México</string>
+				<string>Camarões</string>
 			</array>
 			<key>jogos</key>
 			<array>
 				<dict>
-					<key>0</key>
+					<key>esquerda</key>
+					<string>Brasil</string>
+					<key>direita</key>
+					<string>Croácia</string>
+					<key>golsEsquerda</key>
 					<string></string>
-					<key>1</key>
+					<key>golsDireita</key>
 					<string></string>
-					<key>local</key>
-					<string></string>
-					<key>data</key>
-					<date>2014-01-20T21:48:28Z</date>
+					<key>dataLocal</key>
+					<string>12/06 | 17h00 | São Paulo</string>
 				</dict>
 				<dict>
-					<key>2</key>
+					<key>esquerda</key>
+					<string>Brasil</string>
+					<key>direita</key>
+					<string>Croácia</string>
+					<key>golsEsquerda</key>
 					<string></string>
-					<key>3</key>
+					<key>golsDireita</key>
 					<string></string>
-					<key>local</key>
-					<string></string>
-					<key>data</key>
-					<date>2014-01-20T21:48:28Z</date>
+					<key>dataLocal</key>
+					<string>12/06 | 17h00 | São Paulo</string>
 				</dict>
 				<dict>
-					<key>0</key>
+					<key>esquerda</key>
+					<string>Brasil</string>
+					<key>direita</key>
+					<string>Croácia</string>
+					<key>golsEsquerda</key>
 					<string></string>
-					<key>2</key>
+					<key>golsDireita</key>
 					<string></string>
-					<key>local</key>
-					<string></string>
-					<key>data</key>
-					<date>2014-01-20T21:48:28Z</date>
+					<key>dataLocal</key>
+					<string>12/06 | 17h00 | São Paulo</string>
 				</dict>
 				<dict>
-					<key>1</key>
+					<key>esquerda</key>
+					<string>Brasil</string>
+					<key>direita</key>
+					<string>Croácia</string>
+					<key>golsEsquerda</key>
 					<string></string>
-					<key>3</key>
+					<key>golsDireita</key>
 					<string></string>
-					<key>local</key>
-					<string></string>
-					<key>data</key>
-					<date>2014-01-20T21:48:28Z</date>
+					<key>dataLocal</key>
+					<string>12/06 | 17h00 | São Paulo</string>
 				</dict>
 				<dict>
-					<key>0</key>
+					<key>esquerda</key>
+					<string>Brasil</string>
+					<key>direita</key>
+					<string>Croácia</string>
+					<key>golsEsquerda</key>
 					<string></string>
-					<key>3</key>
+					<key>golsDireita</key>
 					<string></string>
-					<key>local</key>
-					<string></string>
-					<key>data</key>
-					<date>2014-01-20T21:48:28Z</date>
+					<key>dataLocal</key>
+					<string>12/06 | 17h00 | São Paulo</string>
 				</dict>
 				<dict>
-					<key>1</key>
+					<key>esquerda</key>
+					<string>Brasil</string>
+					<key>direita</key>
+					<string>Croácia</string>
+					<key>golsEsquerda</key>
 					<string></string>
-					<key>2</key>
+					<key>golsDireita</key>
 					<string></string>
-					<key>local</key>
-					<string></string>
-					<key>data</key>
-					<date>2014-01-20T21:48:28Z</date>
+					<key>dataLocal</key>
+					<string>12/06 | 17h00 | São Paulo</string>
 				</dict>
 			</array>
 		</dict>
@@ -446,72 +518,84 @@
 		<dict>
 			<key>selecoes</key>
 			<array>
-				<string>Alemanha</string>
-				<string>Portugal</string>
-				<string>Gana</string>
-				<string>Estados Unidos</string>
+				<string>Brasil</string>
+				<string>Croácia</string>
+				<string>México</string>
+				<string>Camarões</string>
 			</array>
 			<key>jogos</key>
 			<array>
 				<dict>
-					<key>0</key>
+					<key>esquerda</key>
+					<string>Brasil</string>
+					<key>direita</key>
+					<string>Croácia</string>
+					<key>golsEsquerda</key>
 					<string></string>
-					<key>1</key>
+					<key>golsDireita</key>
 					<string></string>
-					<key>local</key>
-					<string></string>
-					<key>data</key>
-					<date>2014-01-20T21:48:28Z</date>
+					<key>dataLocal</key>
+					<string>12/06 | 17h00 | São Paulo</string>
 				</dict>
 				<dict>
-					<key>2</key>
+					<key>esquerda</key>
+					<string>Brasil</string>
+					<key>direita</key>
+					<string>Croácia</string>
+					<key>golsEsquerda</key>
 					<string></string>
-					<key>3</key>
+					<key>golsDireita</key>
 					<string></string>
-					<key>local</key>
-					<string></string>
-					<key>data</key>
-					<date>2014-01-20T21:48:28Z</date>
+					<key>dataLocal</key>
+					<string>12/06 | 17h00 | São Paulo</string>
 				</dict>
 				<dict>
-					<key>0</key>
+					<key>esquerda</key>
+					<string>Brasil</string>
+					<key>direita</key>
+					<string>Croácia</string>
+					<key>golsEsquerda</key>
 					<string></string>
-					<key>2</key>
+					<key>golsDireita</key>
 					<string></string>
-					<key>local</key>
-					<string></string>
-					<key>data</key>
-					<date>2014-01-20T21:48:28Z</date>
+					<key>dataLocal</key>
+					<string>12/06 | 17h00 | São Paulo</string>
 				</dict>
 				<dict>
-					<key>1</key>
+					<key>esquerda</key>
+					<string>Brasil</string>
+					<key>direita</key>
+					<string>Croácia</string>
+					<key>golsEsquerda</key>
 					<string></string>
-					<key>3</key>
+					<key>golsDireita</key>
 					<string></string>
-					<key>local</key>
-					<string></string>
-					<key>data</key>
-					<date>2014-01-20T21:48:28Z</date>
+					<key>dataLocal</key>
+					<string>12/06 | 17h00 | São Paulo</string>
 				</dict>
 				<dict>
-					<key>0</key>
+					<key>esquerda</key>
+					<string>Brasil</string>
+					<key>direita</key>
+					<string>Croácia</string>
+					<key>golsEsquerda</key>
 					<string></string>
-					<key>3</key>
+					<key>golsDireita</key>
 					<string></string>
-					<key>local</key>
-					<string></string>
-					<key>data</key>
-					<date>2014-01-20T21:48:28Z</date>
+					<key>dataLocal</key>
+					<string>12/06 | 17h00 | São Paulo</string>
 				</dict>
 				<dict>
-					<key>1</key>
+					<key>esquerda</key>
+					<string>Brasil</string>
+					<key>direita</key>
+					<string>Croácia</string>
+					<key>golsEsquerda</key>
 					<string></string>
-					<key>2</key>
+					<key>golsDireita</key>
 					<string></string>
-					<key>local</key>
-					<string></string>
-					<key>data</key>
-					<date>2014-01-20T21:48:28Z</date>
+					<key>dataLocal</key>
+					<string>12/06 | 17h00 | São Paulo</string>
 				</dict>
 			</array>
 		</dict>
@@ -519,72 +603,84 @@
 		<dict>
 			<key>selecoes</key>
 			<array>
-				<string>Bélgica</string>
-				<string>Argélia</string>
-				<string>Rússia</string>
-				<string>Coréia do Sul</string>
+				<string>Brasil</string>
+				<string>Croácia</string>
+				<string>México</string>
+				<string>Camarões</string>
 			</array>
 			<key>jogos</key>
 			<array>
 				<dict>
-					<key>0</key>
+					<key>esquerda</key>
+					<string>Brasil</string>
+					<key>direita</key>
+					<string>Croácia</string>
+					<key>golsEsquerda</key>
 					<string></string>
-					<key>1</key>
+					<key>golsDireita</key>
 					<string></string>
-					<key>local</key>
-					<string></string>
-					<key>data</key>
-					<date>2014-01-20T21:48:28Z</date>
+					<key>dataLocal</key>
+					<string>12/06 | 17h00 | São Paulo</string>
 				</dict>
 				<dict>
-					<key>2</key>
+					<key>esquerda</key>
+					<string>Brasil</string>
+					<key>direita</key>
+					<string>Croácia</string>
+					<key>golsEsquerda</key>
 					<string></string>
-					<key>3</key>
+					<key>golsDireita</key>
 					<string></string>
-					<key>local</key>
-					<string></string>
-					<key>data</key>
-					<date>2014-01-20T21:48:28Z</date>
+					<key>dataLocal</key>
+					<string>12/06 | 17h00 | São Paulo</string>
 				</dict>
 				<dict>
-					<key>0</key>
+					<key>esquerda</key>
+					<string>Brasil</string>
+					<key>direita</key>
+					<string>Croácia</string>
+					<key>golsEsquerda</key>
 					<string></string>
-					<key>2</key>
+					<key>golsDireita</key>
 					<string></string>
-					<key>local</key>
-					<string></string>
-					<key>data</key>
-					<date>2014-01-20T21:48:28Z</date>
+					<key>dataLocal</key>
+					<string>12/06 | 17h00 | São Paulo</string>
 				</dict>
 				<dict>
-					<key>1</key>
+					<key>esquerda</key>
+					<string>Brasil</string>
+					<key>direita</key>
+					<string>Croácia</string>
+					<key>golsEsquerda</key>
 					<string></string>
-					<key>3</key>
+					<key>golsDireita</key>
 					<string></string>
-					<key>local</key>
-					<string></string>
-					<key>data</key>
-					<date>2014-01-20T21:48:28Z</date>
+					<key>dataLocal</key>
+					<string>12/06 | 17h00 | São Paulo</string>
 				</dict>
 				<dict>
-					<key>0</key>
+					<key>esquerda</key>
+					<string>Brasil</string>
+					<key>direita</key>
+					<string>Croácia</string>
+					<key>golsEsquerda</key>
 					<string></string>
-					<key>3</key>
+					<key>golsDireita</key>
 					<string></string>
-					<key>local</key>
-					<string></string>
-					<key>data</key>
-					<date>2014-01-20T21:48:28Z</date>
+					<key>dataLocal</key>
+					<string>12/06 | 17h00 | São Paulo</string>
 				</dict>
 				<dict>
-					<key>1</key>
+					<key>esquerda</key>
+					<string>Brasil</string>
+					<key>direita</key>
+					<string>Croácia</string>
+					<key>golsEsquerda</key>
 					<string></string>
-					<key>2</key>
+					<key>golsDireita</key>
 					<string></string>
-					<key>local</key>
-					<string></string>
-					<key>data</key>
-					<date>2014-01-20T21:48:28Z</date>
+					<key>dataLocal</key>
+					<string>12/06 | 17h00 | São Paulo</string>
 				</dict>
 			</array>
 		</dict>
