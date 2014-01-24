@@ -93,10 +93,10 @@
 		<dict>
 			<key>selecoes</key>
 			<array>
-				<string>Brasil</string>
-				<string>Croácia</string>
-				<string>México</string>
-				<string>Camarões</string>
+				<string>Espanha</string>
+				<string>Holanda</string>
+				<string>Chile</string>
+				<string>Austrália</string>
 			</array>
 			<key>jogos</key>
 			<array>
@@ -178,10 +178,10 @@
 		<dict>
 			<key>selecoes</key>
 			<array>
-				<string>Brasil</string>
-				<string>Croácia</string>
-				<string>México</string>
-				<string>Camarões</string>
+				<string>Colômbia</string>
+				<string>Grécia</string>
+				<string>Costa do Marfim</string>
+				<string>Japão</string>
 			</array>
 			<key>jogos</key>
 			<array>
@@ -207,7 +207,7 @@
 					<key>golsDireita</key>
 					<string></string>
 					<key>dataLocal</key>
-					<string>14/06 | 19h00 | Recife</string>
+					<string>14/06 | 22h00 | Recife</string>
 				</dict>
 				<dict>
 					<key>esquerda</key>
@@ -263,10 +263,10 @@
 		<dict>
 			<key>selecoes</key>
 			<array>
-				<string>Brasil</string>
-				<string>Croácia</string>
-				<string>México</string>
-				<string>Camarões</string>
+				<string>Uruguai</string>
+				<string>Costa Rica</string>
+				<string>Inglaterra</string>
+				<string>Itália</string>
 			</array>
 			<key>jogos</key>
 			<array>
@@ -292,7 +292,7 @@
 					<key>golsDireita</key>
 					<string></string>
 					<key>dataLocal</key>
-					<string>14/06 | 22h00 | Manaus</string>
+					<string>14/06 | 19h00 | Manaus</string>
 				</dict>
 				<dict>
 					<key>esquerda</key>
@@ -348,10 +348,10 @@
 		<dict>
 			<key>selecoes</key>
 			<array>
-				<string>Brasil</string>
-				<string>Croácia</string>
-				<string>México</string>
-				<string>Camarões</string>
+				<string>Suíça</string>
+				<string>Equador</string>
+				<string>França</string>
+				<string>Honduras</string>
 			</array>
 			<key>jogos</key>
 			<array>
@@ -389,7 +389,7 @@
 					<key>golsDireita</key>
 					<string></string>
 					<key>dataLocal</key>
-					<string>12/06 | 17h00 | Salvador</string>
+					<string>20/06 | 16h00 | Salvador</string>
 				</dict>
 				<dict>
 					<key>esquerda</key>
@@ -433,84 +433,84 @@
 		<dict>
 			<key>selecoes</key>
 			<array>
-				<string>Brasil</string>
-				<string>Croácia</string>
-				<string>México</string>
-				<string>Camarões</string>
+				<string>Argentina</string>
+				<string>Bósnia</string>
+				<string>Irã</string>
+				<string>Nigéria</string>
 			</array>
 			<key>jogos</key>
 			<array>
 				<dict>
 					<key>esquerda</key>
-					<string>Brasil</string>
+					<string>Argentina</string>
 					<key>direita</key>
-					<string>Croácia</string>
+					<string>Bósnia</string>
 					<key>golsEsquerda</key>
 					<string></string>
 					<key>golsDireita</key>
 					<string></string>
 					<key>dataLocal</key>
-					<string>12/06 | 17h00 | São Paulo</string>
+					<string>15/06 | 19h00 | Rio de Janiero</string>
 				</dict>
 				<dict>
 					<key>esquerda</key>
-					<string>Brasil</string>
+					<string>Irã</string>
 					<key>direita</key>
-					<string>Croácia</string>
+					<string>Nigéria</string>
 					<key>golsEsquerda</key>
 					<string></string>
 					<key>golsDireita</key>
 					<string></string>
 					<key>dataLocal</key>
-					<string>12/06 | 17h00 | São Paulo</string>
+					<string>16/06 | 16h00 | Curitiba</string>
 				</dict>
 				<dict>
 					<key>esquerda</key>
-					<string>Brasil</string>
+					<string>Argentina</string>
 					<key>direita</key>
-					<string>Croácia</string>
+					<string>Irã</string>
 					<key>golsEsquerda</key>
 					<string></string>
 					<key>golsDireita</key>
 					<string></string>
 					<key>dataLocal</key>
-					<string>12/06 | 17h00 | São Paulo</string>
+					<string>21/06 | 13h00 | Belo Horizonte</string>
 				</dict>
 				<dict>
 					<key>esquerda</key>
-					<string>Brasil</string>
+					<string>Nigéria</string>
 					<key>direita</key>
-					<string>Croácia</string>
+					<string>Bósnia</string>
 					<key>golsEsquerda</key>
 					<string></string>
 					<key>golsDireita</key>
 					<string></string>
 					<key>dataLocal</key>
-					<string>12/06 | 17h00 | São Paulo</string>
+					<string>21/06 | 19h00 | Cuiabá</string>
 				</dict>
 				<dict>
 					<key>esquerda</key>
-					<string>Brasil</string>
+					<string>Nigéria</string>
 					<key>direita</key>
-					<string>Croácia</string>
+					<string>Argentina</string>
 					<key>golsEsquerda</key>
 					<string></string>
 					<key>golsDireita</key>
 					<string></string>
 					<key>dataLocal</key>
-					<string>12/06 | 17h00 | São Paulo</string>
+					<string>25/06 | 13h00 | Porto Alegre</string>
 				</dict>
 				<dict>
 					<key>esquerda</key>
-					<string>Brasil</string>
+					<string>Bósnia</string>
 					<key>direita</key>
-					<string>Croácia</string>
+					<string>Irã</string>
 					<key>golsEsquerda</key>
 					<string></string>
 					<key>golsDireita</key>
 					<string></string>
 					<key>dataLocal</key>
-					<string>12/06 | 17h00 | São Paulo</string>
+					<string>25/06 | 13h00 | Salvador</string>
 				</dict>
 			</array>
 		</dict>
@@ -518,84 +518,84 @@
 		<dict>
 			<key>selecoes</key>
 			<array>
-				<string>Brasil</string>
-				<string>Croácia</string>
-				<string>México</string>
-				<string>Camarões</string>
+				<string>Alemanha</string>
+				<string>Portugal</string>
+				<string>Gana</string>
+				<string>Estados Unidos</string>
 			</array>
 			<key>jogos</key>
 			<array>
 				<dict>
 					<key>esquerda</key>
-					<string>Brasil</string>
+					<string>Alemanha</string>
 					<key>direita</key>
-					<string>Croácia</string>
+					<string>Portugal</string>
 					<key>golsEsquerda</key>
 					<string></string>
 					<key>golsDireita</key>
 					<string></string>
 					<key>dataLocal</key>
-					<string>12/06 | 17h00 | São Paulo</string>
+					<string>16/06 | 13h00 | Salvador</string>
 				</dict>
 				<dict>
 					<key>esquerda</key>
-					<string>Brasil</string>
+					<string>Gana</string>
 					<key>direita</key>
-					<string>Croácia</string>
+					<string>Estados Unidos</string>
 					<key>golsEsquerda</key>
 					<string></string>
 					<key>golsDireita</key>
 					<string></string>
 					<key>dataLocal</key>
-					<string>12/06 | 17h00 | São Paulo</string>
+					<string>16/06 | 19h00 | Natal</string>
 				</dict>
 				<dict>
 					<key>esquerda</key>
-					<string>Brasil</string>
+					<string>Alemanha</string>
 					<key>direita</key>
-					<string>Croácia</string>
+					<string>Gana</string>
 					<key>golsEsquerda</key>
 					<string></string>
 					<key>golsDireita</key>
 					<string></string>
 					<key>dataLocal</key>
-					<string>12/06 | 17h00 | São Paulo</string>
+					<string>21/06 | 16h00 | Fortaleza</string>
 				</dict>
 				<dict>
 					<key>esquerda</key>
-					<string>Brasil</string>
+					<string>Estados Unidos</string>
 					<key>direita</key>
-					<string>Croácia</string>
+					<string>Portugal</string>
 					<key>golsEsquerda</key>
 					<string></string>
 					<key>golsDireita</key>
 					<string></string>
 					<key>dataLocal</key>
-					<string>12/06 | 17h00 | São Paulo</string>
+					<string>22/06 | 19h00 | Manaus</string>
 				</dict>
 				<dict>
 					<key>esquerda</key>
-					<string>Brasil</string>
+					<string>Portugal</string>
 					<key>direita</key>
-					<string>Croácia</string>
+					<string>Gana</string>
 					<key>golsEsquerda</key>
 					<string></string>
 					<key>golsDireita</key>
 					<string></string>
 					<key>dataLocal</key>
-					<string>12/06 | 17h00 | São Paulo</string>
+					<string>26/06 | 13h00 | Brasília</string>
 				</dict>
 				<dict>
 					<key>esquerda</key>
-					<string>Brasil</string>
+					<string>Estados Unidos</string>
 					<key>direita</key>
-					<string>Croácia</string>
+					<string>Alemanha</string>
 					<key>golsEsquerda</key>
 					<string></string>
 					<key>golsDireita</key>
 					<string></string>
 					<key>dataLocal</key>
-					<string>12/06 | 17h00 | São Paulo</string>
+					<string>26/06 | 13h00 | Recife</string>
 				</dict>
 			</array>
 		</dict>
@@ -603,84 +603,84 @@
 		<dict>
 			<key>selecoes</key>
 			<array>
-				<string>Brasil</string>
-				<string>Croácia</string>
-				<string>México</string>
-				<string>Camarões</string>
+				<string>Bélgica</string>
+				<string>Argélia</string>
+				<string>Rússia</string>
+				<string>Coreia do Sul</string>
 			</array>
 			<key>jogos</key>
 			<array>
 				<dict>
 					<key>esquerda</key>
-					<string>Brasil</string>
+					<string>Bélgica</string>
 					<key>direita</key>
-					<string>Croácia</string>
+					<string>Argélia</string>
 					<key>golsEsquerda</key>
 					<string></string>
 					<key>golsDireita</key>
 					<string></string>
 					<key>dataLocal</key>
-					<string>12/06 | 17h00 | São Paulo</string>
+					<string>17/06 | 13h00 | Belo Horizonte</string>
 				</dict>
 				<dict>
 					<key>esquerda</key>
-					<string>Brasil</string>
+					<string>Rússia</string>
 					<key>direita</key>
-					<string>Croácia</string>
+					<string>Coreia do Sul</string>
 					<key>golsEsquerda</key>
 					<string></string>
 					<key>golsDireita</key>
 					<string></string>
 					<key>dataLocal</key>
-					<string>12/06 | 17h00 | São Paulo</string>
+					<string>17/06 | 19h00 | Cuiabá</string>
 				</dict>
 				<dict>
 					<key>esquerda</key>
-					<string>Brasil</string>
+					<string>Bélgica</string>
 					<key>direita</key>
-					<string>Croácia</string>
+					<string>Rússia</string>
 					<key>golsEsquerda</key>
 					<string></string>
 					<key>golsDireita</key>
 					<string></string>
 					<key>dataLocal</key>
-					<string>12/06 | 17h00 | São Paulo</string>
+					<string>22/06 | 13h00 | Rio de Janeiro</string>
 				</dict>
 				<dict>
 					<key>esquerda</key>
-					<string>Brasil</string>
+					<string>Coreia do Sul</string>
 					<key>direita</key>
-					<string>Croácia</string>
+					<string>Argélia</string>
 					<key>golsEsquerda</key>
 					<string></string>
 					<key>golsDireita</key>
 					<string></string>
 					<key>dataLocal</key>
-					<string>12/06 | 17h00 | São Paulo</string>
+					<string>22/06 | 16h00 | Porto Alegre</string>
 				</dict>
 				<dict>
 					<key>esquerda</key>
-					<string>Brasil</string>
+					<string>Argélia</string>
 					<key>direita</key>
-					<string>Croácia</string>
+					<string>Rússia</string>
 					<key>golsEsquerda</key>
 					<string></string>
 					<key>golsDireita</key>
 					<string></string>
 					<key>dataLocal</key>
-					<string>12/06 | 17h00 | São Paulo</string>
+					<string>26/06 | 17h00 | Curitiba</string>
 				</dict>
 				<dict>
 					<key>esquerda</key>
-					<string>Brasil</string>
+					<string>Coreia do Sul</string>
 					<key>direita</key>
-					<string>Croácia</string>
+					<string>Bélgica</string>
 					<key>golsEsquerda</key>
 					<string></string>
 					<key>golsDireita</key>
 					<string></string>
 					<key>dataLocal</key>
-					<string>12/06 | 17h00 | São Paulo</string>
+					<string>26/06 | 17h00 | São Paulo</string>
 				</dict>
 			</array>
 		</dict>
