@@ -37,11 +37,11 @@
     } else if ([segue.identifier isEqualToString:@"grupoC"]) {
         GrupoViewController *telaGrupo = segue.destinationViewController;
         telaGrupo.grupo = @"c";
-        telaGrupo.fundo = @"imgGrupoA";
+        telaGrupo.fundo = @"imgGrupoC";
     } else if ([segue.identifier isEqualToString:@"grupoD"]) {
         GrupoViewController *telaGrupo = segue.destinationViewController;
         telaGrupo.grupo = @"d";
-        telaGrupo.fundo = @"imgGrupoA";
+        telaGrupo.fundo = @"imgGrupoD";
     } else if ([segue.identifier isEqualToString:@"grupoE"]) {
         GrupoViewController *telaGrupo = segue.destinationViewController;
         telaGrupo.grupo = @"e";

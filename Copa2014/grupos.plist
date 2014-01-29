@@ -88,6 +88,13 @@
 					<string>23/06 | 17h00 | Recife</string>
 				</dict>
 			</array>
+			<key>pontuacao</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
 		</dict>
 		<key>b</key>
 		<dict>

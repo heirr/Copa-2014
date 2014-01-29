@@ -16,6 +16,7 @@
 @property (nonatomic, retain) IBOutlet UILabel *lblTime1;
 @property (nonatomic, strong) NSString *grupo;
 @property (nonatomic, strong) NSString *fundo;
+@property (nonatomic, strong) NSString *dataLocal;
 
 
 //Labels dos Jogos da Fase de Grupos Seleção/Jogo
@@ -48,6 +49,12 @@
 @property (nonatomic, retain) IBOutlet UILabel *lblDataLocal6;
 @property (nonatomic, retain) IBOutlet UILabel *lblSelecao06;
 @property (nonatomic, retain) IBOutlet UILabel *lblSelecao16;
+
+//Seleções para classificação
+@property (nonatomic, retain) IBOutlet UILabel *lblClassificacaoSelecao0;
+@property (nonatomic, retain) IBOutlet UILabel *lblClassificacaoSelecao1;
+@property (nonatomic, retain) IBOutlet UILabel *lblClassificacaoSelecao2;
+@property (nonatomic, retain) IBOutlet UILabel *lblClassificacaoSelecao3;
 
 
 
