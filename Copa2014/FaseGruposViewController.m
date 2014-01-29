@@ -34,6 +34,30 @@
         GrupoViewController *telaGrupo = segue.destinationViewController;
         telaGrupo.grupo = @"b";
         telaGrupo.fundo = @"imgGrupoB";
+    } else if ([segue.identifier isEqualToString:@"grupoC"]) {
+        GrupoViewController *telaGrupo = segue.destinationViewController;
+        telaGrupo.grupo = @"c";
+        telaGrupo.fundo = @"imgGrupoA";
+    } else if ([segue.identifier isEqualToString:@"grupoD"]) {
+        GrupoViewController *telaGrupo = segue.destinationViewController;
+        telaGrupo.grupo = @"d";
+        telaGrupo.fundo = @"imgGrupoA";
+    } else if ([segue.identifier isEqualToString:@"grupoE"]) {
+        GrupoViewController *telaGrupo = segue.destinationViewController;
+        telaGrupo.grupo = @"e";
+        telaGrupo.fundo = @"imgGrupoE";
+    } else if ([segue.identifier isEqualToString:@"grupoF"]) {
+        GrupoViewController *telaGrupo = segue.destinationViewController;
+        telaGrupo.grupo = @"F";
+        telaGrupo.fundo = @"imgGrupoF";
+    } else if ([segue.identifier isEqualToString:@"grupoG"]) {
+        GrupoViewController *telaGrupo = segue.destinationViewController;
+        telaGrupo.grupo = @"g";
+        telaGrupo.fundo = @"imgGrupoG";
+    } else if ([segue.identifier isEqualToString:@"grupoH"]) {
+        GrupoViewController *telaGrupo = segue.destinationViewController;
+        telaGrupo.grupo = @"h";
+        telaGrupo.fundo = @"imgGrupoH";
     }
 }
 

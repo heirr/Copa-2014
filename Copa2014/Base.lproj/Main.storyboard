@@ -68,6 +68,9 @@
                                 <state key="normal" title="C" backgroundImage="imgButtonRed">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="ZFA-3X-3J1" kind="modal" identifier="grupoC" modalTransitionStyle="flipHorizontal" id="9Rk-lx-GnD"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="W1s-h5-XBF">
                                 <rect key="frame" x="203" y="206" width="60" height="60"/>
@@ -76,6 +79,9 @@
                                 <state key="normal" title="D" backgroundImage="imgButton">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="ZFA-3X-3J1" kind="modal" identifier="grupoD" modalTransitionStyle="flipHorizontal" id="QRp-CC-UF9"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="RDx-tz-YK5">
                                 <rect key="frame" x="77" y="300" width="30" height="30"/>
@@ -84,6 +90,9 @@
                                 <state key="normal" title="E">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="ZFA-3X-3J1" kind="modal" identifier="grupoE" modalTransitionStyle="flipHorizontal" id="veL-xt-hCu"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="7HI-GZ-ptJ">
                                 <rect key="frame" x="210" y="300" width="46" height="30"/>
@@ -92,6 +101,9 @@
                                 <state key="normal" title="F">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="ZFA-3X-3J1" kind="modal" identifier="grupoF" modalTransitionStyle="flipHorizontal" id="Otb-5Y-bID"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="WsZ-aU-moB">
                                 <rect key="frame" x="77" y="398" width="30" height="30"/>
@@ -100,6 +112,9 @@
                                 <state key="normal" title="G">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="ZFA-3X-3J1" kind="modal" identifier="grupoG" modalTransitionStyle="flipHorizontal" id="0kM-ft-hFp"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="QQ6-Jl-Z7t">
                                 <rect key="frame" x="218" y="398" width="30" height="30"/>
@@ -108,6 +123,9 @@
                                 <state key="normal" title="H">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="ZFA-3X-3J1" kind="modal" identifier="grupoH" modalTransitionStyle="flipHorizontal" id="Kzx-rj-NpJ"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -286,7 +304,7 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="AtA-wx-d7Y"/>
         <segue reference="sZb-jA-tlc"/>
+        <segue reference="Kzx-rj-NpJ"/>
     </inferredMetricsTieBreakers>
 </document>
