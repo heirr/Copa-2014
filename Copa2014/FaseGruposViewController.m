@@ -29,7 +29,12 @@
     if ([segue.identifier isEqualToString:@"grupoA"]) {
        GrupoViewController *telaGrupo = segue.destinationViewController;
        telaGrupo.grupo = @"a";
-    } 
+       telaGrupo.fundo = @"imgGrupoA";
+    } else if ([segue.identifier isEqualToString:@"grupoB"]) {
+        GrupoViewController *telaGrupo = segue.destinationViewController;
+        telaGrupo.grupo = @"b";
+        telaGrupo.fundo = @"imgGrupoB";
+    }
 }
 
 - (void)viewDidLoad

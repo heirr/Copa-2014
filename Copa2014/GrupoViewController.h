@@ -15,6 +15,7 @@
 @property (nonatomic, retain) IBOutlet UILabel *lblTeste;
 @property (nonatomic, retain) IBOutlet UILabel *lblTime1;
 @property (nonatomic, strong) NSString *grupo;
+@property (nonatomic, strong) NSString *fundo;
 
 
 //Labels dos Jogos da Fase de Grupos Seleção/Jogo

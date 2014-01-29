@@ -13,7 +13,7 @@
 @end
 
 @implementation GrupoViewController
-@synthesize grupo, lblTeste;
+@synthesize grupo, lblTeste, fundo;
 @synthesize lblDataLocal1, lblDataLocal2, lblDataLocal3, lblDataLocal4, lblDataLocal5, lblDataLocal6;
 @synthesize lblSelecao01, lblSelecao02, lblSelecao03, lblSelecao04, lblSelecao05, lblSelecao06;
 @synthesize lblSelecao11, lblSelecao12, lblSelecao13, lblSelecao14, lblSelecao15, lblSelecao16;
@@ -75,21 +75,21 @@
 	// Do any additional setup after loading the view.
     
     //Metodo para definir a tela de fundo para iPhone 3.5 e 4 polegadas
-    [self.view setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"imgTelaGrupos"]]];
+
     NSLog(@"%f",[UIScreen mainScreen].bounds.size.height);
+    NSLog(@"%@",fundo);
+    [self.view setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:fundo]]];
     
     //Alterar posicao de labels de acordo com tamanho da tela
-    if ([UIScreen mainScreen].bounds.size.height < 560.0f) {
-        self.lblTeste.autoresizingMask = UIViewAutoresizingNone;
-        self.lblTeste.frame = CGRectMake(10, 10, 280, 21);
-        self.lblTeste.text  = @"teste1";
+//    if ([UIScreen mainScreen].bounds.size.height < 560.0f) {
 
-    }
-    else {
-        self.lblTeste.autoresizingMask = UIViewAutoresizingNone;
-        self.lblTeste.frame = CGRectMake(20, 200, 280, 21);
-        self.lblTeste.text = @"teste2";
-    }
+
+//  }
+//    else {
+//        self.lblTeste.autoresizingMask = UIViewAutoresizingNone;
+//        self.lblTeste.frame = CGRectMake(20, 200, 280, 21);
+//        self.lblTeste.text = @"teste2";
+//    }
     [self.view frame];
     [self abrirPList];
     [self carregarDadosNaTela];
