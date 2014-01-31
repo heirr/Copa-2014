@@ -39,7 +39,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="BDW-Nx-G0w">
-                                <rect key="frame" x="69" y="106" width="60" height="60"/>
+                                <rect key="frame" x="60" y="105" width="60" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <state key="normal" title="A" backgroundImage="imgButton">
@@ -51,7 +51,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="A2R-ZI-CAI">
-                                <rect key="frame" x="203" y="106" width="60" height="60"/>
+                                <rect key="frame" x="200" y="105" width="60" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <state key="normal" title="B" backgroundImage="imgButtonYel">
@@ -62,7 +62,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="d9i-bb-fpp">
-                                <rect key="frame" x="69" y="206" width="60" height="60"/>
+                                <rect key="frame" x="60" y="205" width="60" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <state key="normal" title="C" backgroundImage="imgButtonRed">
@@ -73,10 +73,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="W1s-h5-XBF">
-                                <rect key="frame" x="203" y="206" width="60" height="60"/>
+                                <rect key="frame" x="200" y="205" width="60" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
-                                <state key="normal" title="D" backgroundImage="imgButton">
+                                <state key="normal" title="D" backgroundImage="imgButtonGreen1">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -84,10 +84,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="RDx-tz-YK5">
-                                <rect key="frame" x="77" y="300" width="30" height="30"/>
+                                <rect key="frame" x="60" y="300" width="60" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
-                                <state key="normal" title="E">
+                                <state key="normal" title="E" backgroundImage="imgButton">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -95,10 +95,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="7HI-GZ-ptJ">
-                                <rect key="frame" x="210" y="300" width="46" height="30"/>
+                                <rect key="frame" x="200" y="300" width="60" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
-                                <state key="normal" title="F">
+                                <state key="normal" title="F" backgroundImage="imgButtonYel">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -106,10 +106,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="WsZ-aU-moB">
-                                <rect key="frame" x="77" y="398" width="30" height="30"/>
+                                <rect key="frame" x="60" y="405" width="60" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
-                                <state key="normal" title="G">
+                                <state key="normal" title="G" backgroundImage="imgButtonRed">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -117,10 +117,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="QQ6-Jl-Z7t">
-                                <rect key="frame" x="218" y="398" width="30" height="30"/>
+                                <rect key="frame" x="200" y="405" width="60" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
-                                <state key="normal" title="H">
+                                <state key="normal" title="H" backgroundImage="imgButtonGreen1">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -130,6 +130,16 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="btnA" destination="BDW-Nx-G0w" id="nN7-sG-wdl"/>
+                        <outlet property="btnB" destination="A2R-ZI-CAI" id="VXO-bt-a38"/>
+                        <outlet property="btnC" destination="d9i-bb-fpp" id="NH1-Hi-TVv"/>
+                        <outlet property="btnD" destination="W1s-h5-XBF" id="37i-Ty-GvS"/>
+                        <outlet property="btnE" destination="RDx-tz-YK5" id="4vy-KK-A2V"/>
+                        <outlet property="btnF" destination="7HI-GZ-ptJ" id="Slc-uI-gTL"/>
+                        <outlet property="btnG" destination="WsZ-aU-moB" id="n94-Kw-cTr"/>
+                        <outlet property="btnH" destination="QQ6-Jl-Z7t" id="LAX-8o-F5D"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VHw-Iq-YIf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -265,7 +275,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="YMQ-WU-Eup" kind="modal" modalTransitionStyle="flipHorizontal" id="sZb-jA-tlc"/>
+                                    <segue destination="YMQ-WU-Eup" kind="modal" identifier="return" modalTransitionStyle="flipHorizontal" id="sZb-jA-tlc"/>
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="lGO-dR-95q">
@@ -342,6 +352,7 @@
     </scenes>
     <resources>
         <image name="imgButton" width="173" height="173"/>
+        <image name="imgButtonGreen1" width="170" height="170"/>
         <image name="imgButtonRed" width="170" height="170"/>
         <image name="imgButtonYel" width="170" height="170"/>
         <image name="imgTela4GrupoA" width="640" height="1136"/>
@@ -352,7 +363,7 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
+        <segue reference="veL-xt-hCu"/>
         <segue reference="sZb-jA-tlc"/>
-        <segue reference="Kzx-rj-NpJ"/>
     </inferredMetricsTieBreakers>
 </document>

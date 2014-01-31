@@ -10,4 +10,13 @@
 
 @interface FaseGruposViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UIButton *btnA;
+@property (strong, nonatomic) IBOutlet UIButton *btnB;
+@property (strong, nonatomic) IBOutlet UIButton *btnC;
+@property (strong, nonatomic) IBOutlet UIButton *btnD;
+@property (strong, nonatomic) IBOutlet UIButton *btnE;
+@property (strong, nonatomic) IBOutlet UIButton *btnF;
+@property (strong, nonatomic) IBOutlet UIButton *btnG;
+@property (strong, nonatomic) IBOutlet UIButton *btnH;
+
 @end

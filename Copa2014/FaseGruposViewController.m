@@ -65,8 +65,34 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    //Alterar posicao de labels de acordo com tamanho da tela
+        if ([UIScreen mainScreen].bounds.size.height < 560.0f) {
+    
+            self.btnA.autoresizingMask = UIViewAutoresizingNone;
+            self.btnA.frame = CGRectMake(60, 95, 60, 60);
+            
+            self.btnB.autoresizingMask = UIViewAutoresizingNone;
+            self.btnB.frame = CGRectMake(200, 95, 60, 60);
+            
+            self.btnC.autoresizingMask = UIViewAutoresizingNone;
+            self.btnC.frame = CGRectMake(60, 185, 60, 60);
+            
+            self.btnD.autoresizingMask = UIViewAutoresizingNone;
+            self.btnD.frame = CGRectMake(200, 185, 60, 60);
+            
+            self.btnE.autoresizingMask = UIViewAutoresizingNone;
+            self.btnE.frame = CGRectMake(60, 275, 60, 60);
+            
+            self.btnF.autoresizingMask = UIViewAutoresizingNone;
+            self.btnF.frame = CGRectMake(200, 275, 60, 60);
+            
+            self.btnG.autoresizingMask = UIViewAutoresizingNone;
+            self.btnG.frame = CGRectMake(60, 365, 60, 60);
+            
+            self.btnH.autoresizingMask = UIViewAutoresizingNone;
+            self.btnH.frame = CGRectMake(200, 365, 60, 60);
+        }
 }
-
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
