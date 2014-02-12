@@ -17,6 +17,7 @@
 @synthesize lblDataLocal1, lblDataLocal2, lblDataLocal3, lblDataLocal4, lblDataLocal5, lblDataLocal6;
 @synthesize lblSelecao01, lblSelecao02, lblSelecao03, lblSelecao04, lblSelecao05, lblSelecao06;
 @synthesize lblSelecao11, lblSelecao12, lblSelecao13, lblSelecao14, lblSelecao15, lblSelecao16;
+@synthesize tfGolEsquerda1, tfGolDireita1;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -30,7 +31,27 @@
 - (void)abrirPList {
     NSString *plistFile = [[NSBundle mainBundle] pathForResource:@"grupos" ofType:@"plist"];
     dict = [NSDictionary dictionaryWithContentsOfFile:plistFile];
-    NSLog(@"%@", dict);
+    //NSLog(@"%@", dict);
+}
+
+- (void) calcularPontuacao {
+    pontuacoes = [[NSArray alloc] initWithObjects:@"0", @"0", @"0", @"0", nil];
+    for (int i = 0; i < 6; i++) {
+        
+        if ([[[[[[dict objectForKey:@"grupos"] objectForKey:grupo] objectForKey:@"jogos"] objectAtIndex:i] objectForKey:@"golsEsquerda"] intValue] > [[[[[[dict objectForKey:@"grupos"] objectForKey:grupo] objectForKey:@"jogos"] objectAtIndex:i] objectForKey:@"golsDireita"] intValue]) {
+            int selecao = [[[[[[dict objectForKey:@"grupos"] objectForKey:grupo] objectForKey:@"jogos"] objectAtIndex:i] objectForKey:@"esquerda"] intValue];
+            NSLog(@"%@", [[[[dict objectForKey:@"grupos"] objectForKey:grupo] objectForKey:@"selecoes"] objectAtIndex:selecao]);
+            
+            //esquerda ganhou
+        } /*else if (golsEsquerda < golsDireita){
+            //direita ganhou
+        } else {
+            //empate
+        }*/
+        
+   
+    }
+    
 }
 
 - (void) carregarDadosNaTela {
@@ -39,6 +60,7 @@
     self.lblSelecao01.text = [[[[[dict objectForKey:@"grupos"] objectForKey:grupo] objectForKey:@"jogos"] objectAtIndex:0] objectForKey:@"esquerda"];
     self.lblSelecao11.text = [[[[[dict objectForKey:@"grupos"] objectForKey:grupo] objectForKey:@"jogos"] objectAtIndex:0] objectForKey:@"direita"];
     self.lblDataLocal1.text = [[[[[dict objectForKey:@"grupos"] objectForKey:grupo] objectForKey:@"jogos"] objectAtIndex:0] objectForKey:@"dataLocal"];
+    self.tfGolEsquerda1.text = [[[[[dict objectForKey:@"grupos"] objectForKey:grupo] objectForKey:@"jogos"] objectAtIndex:0] objectForKey:@"golsEsquerda"];
     
     //Jogo 2
     self.lblSelecao02.text = [[[[[dict objectForKey:@"grupos"] objectForKey:grupo] objectForKey:@"jogos"] objectAtIndex:1] objectForKey:@"esquerda"];
@@ -98,6 +120,7 @@
     [self.view frame];
     [self abrirPList];
     [self carregarDadosNaTela];
+    [self calcularPontuacao];
 
 
 }

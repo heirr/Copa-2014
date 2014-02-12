@@ -17,13 +17,13 @@
 			<array>
 				<dict>
 					<key>esquerda</key>
-					<string>Brasil</string>
+					<string>0</string>
 					<key>direita</key>
-					<string>Croácia</string>
+					<string>1</string>
 					<key>golsEsquerda</key>
-					<string></string>
+					<string>4</string>
 					<key>golsDireita</key>
-					<string></string>
+					<string>0</string>
 					<key>dataLocal</key>
 					<string>12/06 | 17h00 | São Paulo</string>
 				</dict>

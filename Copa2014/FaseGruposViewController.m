@@ -48,7 +48,7 @@
         telaGrupo.fundo = @"imgGrupoE";
     } else if ([segue.identifier isEqualToString:@"grupoF"]) {
         GrupoViewController *telaGrupo = segue.destinationViewController;
-        telaGrupo.grupo = @"F";
+        telaGrupo.grupo = @"f   ";
         telaGrupo.fundo = @"imgGrupoF";
     } else if ([segue.identifier isEqualToString:@"grupoG"]) {
         GrupoViewController *telaGrupo = segue.destinationViewController;

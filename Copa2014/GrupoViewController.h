@@ -10,6 +10,7 @@
 
 @interface GrupoViewController : UIViewController {
     NSDictionary    *dict;
+    NSArray        *pontuacoes;
 }
 
 @property (nonatomic, retain) IBOutlet UILabel *lblTeste;
@@ -24,6 +25,8 @@
 @property (nonatomic, retain) IBOutlet UILabel *lblDataLocal1;
 @property (nonatomic, retain) IBOutlet UILabel *lblSelecao01;
 @property (nonatomic, retain) IBOutlet UILabel *lblSelecao11;
+@property (nonatomic, retain) IBOutlet UITextField *tfGolEsquerda1;
+@property (nonatomic, retain) IBOutlet UITextField *tfGolDireita1;
 
 //Jogo 2
 @property (nonatomic, retain) IBOutlet UILabel *lblDataLocal2;
